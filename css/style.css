@@ -246,6 +246,9 @@ background-size: cover;
   border-radius:50%;
   font-size: 20px;
 }
+.clickable {
+   cursor:pointer;
+}
 
 @media screen and (max-width:900px){
 	.nav_css .navbar-brand{
