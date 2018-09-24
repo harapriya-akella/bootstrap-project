@@ -1,0 +1,319 @@
+body{
+  font-family: 'Montserrat', sans-serif; 
+}
+.dark_blue_bg{
+  background: rgb(39, 54, 70);
+  /*border:1px solid green;*/
+}
+.dark_blue_bg .navbar .navbar-toggler {
+  color:#fff;
+}
+.dark_blue_bg .navbar .navbar-toggler i{
+  color:white;
+}
+.nav_css .navbar-brand{
+  color:white;
+  font-size: 25px;
+  font-weight: 900;
+  /*font-family: 'Montserrat', sans-serif; */
+}
+.nav_css .collapse .navbar-nav li a{
+  /*font-family: 'Montserrat', sans-serif;*/
+  color:white;
+  font-weight: 900;
+  font-size:18px;
+  margin:0px 10px;
+}
+.nav_css .collapse .navbar-nav li a:hover{
+  color: rgb(24, 188, 156);
+}
+.navbar-nav .nav-link.active{
+  background-color: rgb(23,180,145);
+}
+
+.list-inline a{
+  height:50px;
+  width:50px;
+}
+/*.nav_css .collapse .navbar-nav .nav-item{
+  border: 1px solid red;
+  float:right;
+} This is not working.*/
+/*.nav_css .collapse .navbar-nav .active a{
+  color:white;
+}*/
+.background_css{
+background-color: rgb(24, 188, 156);
+background-size: cover;
+}
+.background_css .start_bs{
+  padding-top: 100px;
+}
+.white_hr{
+  background-color: white;
+  height:4px;
+  width:25%;
+}
+.white_hr::after{
+  content:' \2605';
+  position: relative;
+  background-color:rgb(24, 188, 156);
+  color:#FFF;
+  padding:0px 13px;
+  font-size: 40px;
+  top:-32px;
+}
+.background_css h1{
+  font-style: 900;
+  padding-top:50px;
+  color:white;
+  font-size: 80px;
+}
+.background_css i{
+  color:white;
+  font-size: 30px;
+}
+.background_css .start_bs h2{
+  color:white;
+  font-weight: normal;
+  padding-bottom: 90px;
+}
+.images_css .blue_hr{
+  background-color: rgb(44, 62, 80);
+  height:4px;
+  width:25%;
+}
+.images_css h1{
+  padding-top: 100px;
+  padding-bottom: 10px;
+}
+.blue_hr::after{
+  content:' \2605';
+  position: relative;
+  background-color: #fff;
+  color:rgb(44, 62, 80);
+  padding:0px 13px;
+  font-size: 40px;
+  top:-32px;
+}
+.about_div{
+  margin-top: 100px;
+  padding-top: 50px;
+  color:white;
+  background-color: rgb(24, 188, 156);
+  background-size: cover;
+  font-weight: bold;
+  padding-bottom: 100px;
+}
+.about_para{
+  line-height: 30px;
+}
+.about_div{
+  padding-top:100px;
+}
+.about_div button{
+  background-color: rgb(24, 188, 156);
+  color:white;
+  padding:20px 40px;
+  border:1.5px solid white;
+  border-radius: 5px;
+}
+.about_div button a{
+  text-decoration: none;
+  color:white;
+  font-weight: bold;
+}
+.cont {
+  position: relative;
+  /*width: 50%;*/
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #19ba9f;
+}
+
+.cont:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+
+  color: white;
+  font-size: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.modal_content{
+  text-align: center;
+  /*border:1px solid red;*/
+  padding:50px 250px;
+}
+.modal_content p{
+  padding-top: 50px;
+  padding-bottom: 0px;
+}
+.modal_box_size{
+  position: relative;
+  top:30px;
+  left:-350px;
+  width:1200px; 
+}
+.cabin_modal_title .modal-content h1{
+  /*border: 1px solid green;*/
+  position: relative;
+  left: 350px;
+   color:rgb(44, 62, 80);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.modal_box_size .blue_hr2{
+  background-color: rgb(44, 62, 80);
+  height:4px;
+  width:25%;
+}
+.blue_hr2::after{
+  content:' \2605';
+  position: relative;
+  background-color: #fff;
+  color:rgb(44, 62, 80);
+  padding:0px 13px;
+  font-size: 40px;
+  top:-32px;
+  left: 110px;
+}
+.modal_box_size .modal-header i{
+  color:#18bc9c;
+  font-size: 50px;
+}
+.modal-footer button{
+  background-color:#18bc9c;
+  padding:10px 20px;
+}
+.modal-footer button:hover{
+ background-color:#118e75; 
+}
+.contact_form .form-group .form-control{
+  border-top: none;
+  border-left:none;
+  border-right:none;
+  border-bottom:1px solid gray;
+  border-radius:0px;
+  box-shadow: none !important;
+}
+.form_button button{
+  background-color: rgb(24, 188, 156);
+  border: none;
+  border-radius: 5px;
+  color:white;
+  padding:15px;
+}
+.location{
+  background-color: rgb(44, 62, 80);
+  color:white;
+}
+.location .location_col3 a{
+  text-decoration: none;
+  color:rgb(24, 188, 156);
+}
+.location .location_col3 a:hover{
+  text-decoration: underline;
+}
+.copyright{
+  background-color: rgb(26, 37, 47);
+  color: white;
+  font-size: 12px; 
+}
+.around-the-world .list-inline .list-inline-item .rounded-circle{
+  border-radius:50%;
+  font-size: 20px;
+}
+
+@media screen and (max-width:900px){
+	.nav_css .navbar-brand{
+		font-size: 18px;
+	}
+  	.images_css .blue_hr{
+        width:50%;
+	}
+	.modal_box_size{
+	  	top:0px;
+	  	left:0px;
+	  	width:100%; 
+	}
+	.cabin_modal_title .modal-content h1{
+	  left: 0px;
+	  font-size: 30px;
+	  margin-left:100px;
+	}
+	.modal_box_size .blue_hr2{
+	  width:50%;
+	  margin:0 auto;
+	}
+	.blue_hr2::after{
+	  padding:0px 13px;
+	  font-size: 40px;
+	  top:-32px;
+	  left: 90px;
+	}
+	.modal_content{
+		padding:20px 0 0 0;
+
+	}
+	.modal_content img{
+		max-width:250px;
+	}
+}
+@media screen and (max-width:600px){
+	  .background_css .start_bs h1{
+	    font-size: 50px;
+	    padding-bottom: 10px;
+	  }
+	  .white_hr{
+	    width:50%;
+	  }
+	  .background_css .start_bs h2{
+	    margin:0px 50px;
+	    font-size: 22px;
+	    padding-top: 10px;
+	  }
+	  .images_css .blue_hr{
+	    width:50%;
+	  }
+	.cabin_modal_title .modal-content h1{
+	  left: 0px;
+	  font-size: 25px;
+	  margin-left:50px;
+	}
+	.modal_box_size .blue_hr2{
+	  width:60%;
+	  margin:0 auto;
+	}
+	.blue_hr2::after{
+	  padding:0px 13px;
+	  font-size: 30px;
+	  top:-20px;
+	  left: 80px;
+	}
+	.around_the_web .list-inline-item:not(:last-child){
+		margin-right: 0;
+	}
+}
